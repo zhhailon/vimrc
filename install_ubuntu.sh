@@ -1,3 +1,4 @@
+sudo apt-get install exuberant-ctags
 cd ~
 echo "<<<<<< Install Monaco font"
 curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubuntu.sh | bash
