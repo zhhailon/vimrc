@@ -12,10 +12,10 @@ git clone https://github.com/tomasr/molokai.git
 echo "<<<<<< Set Monaco and molokai"
 cd ~/.vim_runtime
 echo "set number
-      call pathogen#infect('~/.vim_runtime/sources_plugins')
-      colorscheme molokai
-      set gfn=Monaco\ 12
-      map <leader>tt :tabnext<cr>" > my_configs.vim
+call pathogen#infect('~/.vim_runtime/sources_plugins')
+colorscheme molokai
+set gfn=Monaco\ 12
+map <leader>tt :tabnext<cr>" > my_configs.vim
 echo "<<<<<< Install vimrc"
 sh install_awesome_vimrc.sh
 
