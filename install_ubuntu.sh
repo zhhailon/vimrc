@@ -9,7 +9,7 @@ git clone https://github.com/amix/vimrc.git .vim_runtime
 # mkdir sources_plugins
 # cd sources_plugins
 # git clone https://github.com/tomasr/molokai.git
-echo "<<<<<< Set Monaco and molokai"
+# echo "<<<<<< Set Monaco and molokai"
 cd ~/.vim_runtime
 echo "set number
 set gfn=Fantasque\ Sans\ Mono\ 12
