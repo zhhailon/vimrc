@@ -16,8 +16,11 @@ set gfn=Fantasque\ Sans\ Mono\ 12
 map <leader>tt :tabnext<cr>" > my_configs.vim
 echo "<<<<<< Install vimrc"
 sh install_awesome_vimrc.sh
-echo "if ! has(\"gui_running\")
-    set t_Co=256
+echo "
+set shiftwidth=2
+set tabstop=2
+if ! has(\"gui_running\")
+  set t_Co=256
 endif
 \" feel free to choose :set background=light for a different style
 set background=dark
