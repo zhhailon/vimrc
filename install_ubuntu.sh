@@ -1,14 +1,6 @@
-sudo apt-get install exuberant-ctags
-#echo "<<<<<< Install Monaco font"
-#curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubuntu.sh | bash
+
 echo "<<<<<< Clone amix/vimrc"
 git clone https://github.com/amix/vimrc.git ~/.vim_runtime
-# cd ~/.vim_runtime
-# echo "<<<<<< Clone molokai theme"
-# mkdir sources_plugins
-# cd sources_plugins
-# git clone https://github.com/tomasr/molokai.git
-# echo "<<<<<< Set Monaco and molokai"
 echo "set number
 set gfn=Fantasque\ Sans\ Mono\ 12" > ~/.vim_runtime/my_configs.vim
 echo "<<<<<< Install vimrc"
@@ -24,3 +16,4 @@ set background=dark
 colors peaksea
 
 map <leader>tt :tabnext<cr>" >> ~/.vimrc
+
