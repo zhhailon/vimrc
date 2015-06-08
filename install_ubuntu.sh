@@ -10,8 +10,7 @@ git clone https://github.com/amix/vimrc.git ~/.vim_runtime
 # git clone https://github.com/tomasr/molokai.git
 # echo "<<<<<< Set Monaco and molokai"
 echo "set number
-set gfn=Fantasque\ Sans\ Mono\ 12
-map <leader>tt :tabnext<cr>" > ~/.vim_runtime/my_configs.vim
+set gfn=Fantasque\ Sans\ Mono\ 12" > ~/.vim_runtime/my_configs.vim
 echo "<<<<<< Install vimrc"
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 echo "
@@ -22,4 +21,6 @@ if ! has(\"gui_running\")
 endif
 \" feel free to choose :set background=light for a different style
 set background=dark
-colors peaksea" >> ~/.vimrc
+colors peaksea
+
+map <leader>tt :tabnext<cr>" >> ~/.vimrc
