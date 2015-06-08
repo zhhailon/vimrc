@@ -1,4 +1,3 @@
-
 echo "<<<<<< Clone amix/vimrc"
 git clone https://github.com/amix/vimrc.git ~/.vim_runtime
 echo "set number
@@ -17,3 +16,4 @@ colors peaksea
 
 map <leader>tt :tabnext<cr>" >> ~/.vimrc
 
+sudo apt-get install exuberant-ctags
