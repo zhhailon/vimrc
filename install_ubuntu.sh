@@ -17,7 +17,7 @@ colors peaksea
 
 set shiftwidth=2
 set tabstop=2
-set tw=79
+set tw=69
 
 map <leader>tt :tabnext<cr>" >> ~/.vimrc
 
