@@ -2,6 +2,9 @@
 ```bash
 <leader> o # go to previous (old) location
 <leader> i # go to next location
+
+# NERDTree
+r # refresh
 ```
 
 # Commands
