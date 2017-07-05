@@ -5,6 +5,6 @@
 ```
 
 # Commands
-```vim
+```bash
 :Ack # call 'ag' to search for text
 ```
