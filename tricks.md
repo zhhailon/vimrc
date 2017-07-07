@@ -9,6 +9,9 @@ r # refresh
 # windows
 Ctrl-w <arrow up/down/left/right> # move cursor to another window
 Ctrl-w = # resize all windows equally
+
+# reindent
+gg=G # reindent from top to bottom
 ```
 
 # Commands
