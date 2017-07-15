@@ -14,11 +14,11 @@ map <leader>tt :tabnext<cr>" >> ~/.vimrc
 
 # sudo apt-get install exuberant-ctags
 
-echo "<<<<<< Install TagBar
+echo "<<<<<< Install TagBar"
 git clone https://github.com/majutsushi/tagbar.git ~/.vim_runtime/sources_non_forked/tagbar
 echo "nmap <F8> :TagbarToggle<CR>" > ~/.vim_runtime/my_configs.vim
 
-echo "<<<<<< Install YouCompleteMe
+echo "<<<<<< Install YouCompleteMe"
 git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim_runtime/sources_non_forked/YouCompleteMe
 cd ~/.vim_runtime/sources_non_forked/YouCompleteMe
 git submodule update --init --recursive
