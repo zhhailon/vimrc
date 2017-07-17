@@ -8,7 +8,7 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 echo "set number
 set shiftwidth=2
 set tabstop=2
-set tw=69" >> ~/.vimrc
+set tw=79" >> ~/.vimrc
 
 # sudo apt-get install exuberant-ctags
 
