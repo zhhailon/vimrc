@@ -12,16 +12,21 @@ Ctrl-w = # resize all windows equally
 
 # reindent
 gg=G # reindent from top to bottom
+
+# tabs
+gt           # go to next tab
+gT           # go to previous tab
+{i}gt        # go to tab in position i
 ```
 
 # Commands
 ```bash
-:e filename # edit another file
+:e filename      # edit another file
 
 # search
-:Ack # call 'ag' to search for text
+:Ack             # call 'ag' to search for text
 
 # windows
-:split filename # split window horizontally and load another file
+:split filename  # split window horizontally and load another file
 :vsplit filename # split window vertically and load another file
 ```
