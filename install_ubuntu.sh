@@ -8,7 +8,7 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 echo "set number
 set shiftwidth=2
 set tabstop=2
-set tw=79" >> ~/.vimrc
+set tw=69" >> ~/.vimrc
 
 # sudo apt-get install exuberant-ctags
 
@@ -20,7 +20,6 @@ echo "<<<<<< Install YouCompleteMe"
 git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim_runtime/sources_non_forked/YouCompleteMe
 cd ~/.vim_runtime/sources_non_forked/YouCompleteMe
 git submodule update --init --recursive
-export PYTHON_CONFIGURE_OPTS="--enable-shared"
 ./install.py --clang-completer
 echo "let g:ycm_global_ycm_extra_conf = '~/.vim_runtime/sources_non_forked/YouCompleteMe/third_party/ycmd/cpp/.ycm_extra_conf.py'" >> ~/.vim_runtime/my_configs.vim
 
