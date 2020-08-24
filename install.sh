@@ -11,5 +11,5 @@ echo "nmap <F8> :TagbarToggle<CR>" >> ~/.vim_runtime/my_configs.vim
 git clone https://github.com/ycm-core/YouCompleteMe.git ~/.vim_runtime/my_plugins/YouCompleteMe
 cd ~/.vim_runtime/my_plugins/YouCompleteMe
 git submodule update --init --recursive
-./install.py --clangd-completer --rust-completer --java-completer
+./install.py --clangd-completer --rust-completer --java-completer $1
 echo "let g:ycm_global_ycm_extra_conf = '~/.vim_runtime/my_plugins/YouCompleteMe/.ycm_extra_conf.py'" >> ~/.vim_runtime/my_configs.vim
