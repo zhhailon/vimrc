@@ -3,7 +3,8 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 echo "set number
 set shiftwidth=2
 set tabstop=2
-set tw=79" >> ~/.vim_runtime/my_configs.vim
+set tw=79
+let g:snipMate = { 'snippet_version' : 1 }" >> ~/.vim_runtime/my_configs.vim
 
 git clone https://github.com/majutsushi/tagbar.git ~/.vim_runtime/my_plugins/tagbar
 echo "nmap <F8> :TagbarToggle<CR>" >> ~/.vim_runtime/my_configs.vim
